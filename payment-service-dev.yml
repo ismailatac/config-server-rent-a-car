@@ -6,9 +6,9 @@ spring:
     password: 12345
     url: jdbc:mysql://localhost:3307/paymentdb-t2?createDatabaseIfNotExist=true
   jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: update
 eureka:
