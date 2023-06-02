@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       database: invoicedb-t2
-      uri: mongodb://localhost:27018
+      uri: mongodb://localhost:27026
   kafka:
     consumer:
       auto-offset-reset: earliest
